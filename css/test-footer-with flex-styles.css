@@ -36,6 +36,10 @@ body {
 	letter-spacing: 0.03em;
 	background-color: var(--my-white);
 	color: var(--first-text-color);
+
+	/* width: auto; */
+	padding-left: 0%;
+	margin: 0;
 }
 
 /* ==========COMPONENTS========== */
