@@ -64,6 +64,8 @@ body {
 
 .footer-bg {
 	background: var(--background-dark-color);
+
+	position: sticky;
 }
 
 .logo-footer {
