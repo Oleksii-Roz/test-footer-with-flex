@@ -75,6 +75,7 @@ body {
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: flex-start;
+	margin-right: 70px;
 }
 
 .li-footer-item:not(:nth-child(3n)) {
@@ -115,4 +116,22 @@ body {
 .a-footer-link:focus,
 .a-footer-link:active {
 	color: var(--accent-color);
+}
+
+.footer-all-flex {
+	display: flex;
+}
+
+.footer-networks {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+	color: var(--my-white);
+	margin-bottom: 20px;
+}
+
+.footer-svg-flex {
+	display: flex;
+	gap: 10px;
 }
